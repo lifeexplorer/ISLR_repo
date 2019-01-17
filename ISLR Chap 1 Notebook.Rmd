@@ -1,0 +1,51 @@
+---
+title: "ISLR Chapter 1 Notebook"
+output: html_notebook
+---
+
+# History of statistical learning
+
+# The role of ISLR book
+
+ISLR serves bridge between advancement in the field of statistical learning and non-statistician, by presenting the most widely applicable models with intuition and assumption carefully described, fitting procedure and theoretical properties minimised, relevant R implementation included. 
+
+# Learning path
+
+The current plan is to stick on the linear method, which means keep going until Chap 6;
+
+***
+
+The structure of the book:
+
+* *Supervised learning*
+  + linear methods related
+    - regression Chap 3;
+    - classification Chap 4;
+    - model selection (cross-validation & bootstap) Chap 5;
+    - new set of linear mothods, as they have advantage over interpretability and sometimes accuracy (stepwise, ridge and etc.) Chap 6;
+  +**non-linear methods related**
+    - starting with non-linear, inc. GAM Chap 7
+    - tree based (inc. bagging, boosting, random forest) Chap 8
+    - SVM Chap 9
+* *Un-supervised learning* Chap 10
+  
+***
+
+The corresponding advanced reference ESLII was recommanded to read the Chap 1-4 and 7, the rest can be read either sequentially or sampled.
+
+***
+
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.

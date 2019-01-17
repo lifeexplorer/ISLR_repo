@@ -9,6 +9,8 @@ This is my first github document.
 
 ```{r}
 # the r code is only for testing purpose
+iris
+
 plot(iris)
 
 ```
